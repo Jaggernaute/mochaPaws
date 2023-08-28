@@ -17,11 +17,11 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
-        
-    # CodeCov
-    orbs:
-     codecov/codecov@3.2.4
 
+
+# CodeCov
+orbs:
+  codecov/codecov@3.2.4
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
